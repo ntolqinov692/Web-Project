@@ -10,7 +10,6 @@ This is a simple e-learning platform frontend built with React.js.
 - Course Page with video lessons and quizzes
 - State management using React state
 - Progress tracking stored in localStorage
-- Styled with Tailwind CSS
 
 ## Getting Started
 
