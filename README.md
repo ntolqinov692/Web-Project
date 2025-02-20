@@ -29,4 +29,3 @@ This is a simple e-learning platform frontend built with React.js.
 
 - React
 - React Router
-- Tailwind CSS
