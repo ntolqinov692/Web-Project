@@ -2,12 +2,13 @@ import './navbar.css';
 import { useState, useEffect } from 'react';
 import {
     RiFacebookBoxFill, RiGraduationCapFill, RiInstagramFill,
-    RiLinkedinFill, RiTwitterFill, RiMoonFill, RiSunFill
+    RiLinkedinFill, RiTwitterFill, RiMoonFill, RiSunFill, RiMenuLine, RiCloseLine
 } from "react-icons/ri";
 import navData from "./daja";
 
 const Navbar = () => {
     const [darkMode, setDarkMode] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     // Load theme from localStorage
     useEffect(() => {
@@ -33,30 +34,42 @@ const Navbar = () => {
         });
     };
 
+    // Toggle mobile menu
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
+    // Close mobile menu when a link is clicked
+    const handleLinkClick = () => {
+        setIsMenuOpen(false);
+    };
+
     return (
         <nav>
-            <div className="container nav_container">
+            <div className="container tn_container">
                 <a href="index.html" className="nav_logo">
-                    <span><RiGraduationCapFill size={33} /></span>Amaan-EDU
+                    <span><RiGraduationCapFill size={33} /></span>Edu Amaan
                 </a>
 
-                <div className="tn__social">
-                    <a href="#"><RiFacebookBoxFill /></a>
-                    <a href="#"><RiInstagramFill /></a>
-                    <a href="#"><RiLinkedinFill /></a>
-                    <a href="#"><RiTwitterFill /></a>
-                </div>
+                {/* Mobile Menu Toggle Button */}
+                <button className="menu-toggle" onClick={toggleMenu}>
+                    {isMenuOpen ? <RiCloseLine size={24} /> : <RiMenuLine size={24} />}
+                </button>
 
-                <div className="container nav__container">
+                <div className={`nav__container ${isMenuOpen ? "active" : ""}`}>
                     <ul className="nav__menu">
                         {navData.map(item => (
-                            <li key={item.id}><a href={item.link}>{item.title}</a></li>
+                            <li key={item.id}>
+                                <a href={item.link} onClick={handleLinkClick}>{item.title}</a>
+                            </li>
                         ))}
                     </ul>
-                    <button className='nav__btn'>Get Certificate</button>
-                    <button className="theme-toggle" onClick={toggleTheme}>
-                        {darkMode ? <RiSunFill /> : <RiMoonFill />}
-                    </button>
+                    <div className="nav__actions">
+                        <button className='nav__btn'>Get Certificate</button>
+                        <button className="theme-toggle" onClick={toggleTheme}>
+                            {darkMode ? <RiSunFill /> : <RiMoonFill />}
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>

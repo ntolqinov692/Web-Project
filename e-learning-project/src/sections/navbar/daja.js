@@ -2,27 +2,27 @@ const navData=[
     {
         id:1,
         link:'#',
-        title:'home',
+        title:'Home',
     },
     {
        id:2,
         link:'#',
-        title:'about',
+        title:'About',
     },
     {
        id:3,
         link:'#',
-        title:'courses',
+        title:'Courses',
     },
     {
        id:4,
         link:'#',
-        title:'testimonial',
+        title:'Testimonial',
     },
     {
        id:5,
         link:'#',
-        title:'contact',
+        title:'Contact',
     }
 ];
 export default navData;

@@ -1,0 +1,103 @@
+
+
+/* Header Section */
+#header {
+    /*background-image: url('path-to-your-image.jpg'); !* Add your background image path *!*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the left */
+    padding: 0 2rem;
+    color: var(--text-color);
+    text-align: left; /* Align text to the left */
+}
+
+.header__container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(173, 216, 230, 1.1); /* Light transparent overlay */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border for depth */
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+/* Dark mode styles */
+.dark-mode .header__container {
+    background-color: rgba(0, 0, 0, 0.3); /* Dark transparent overlay */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border for depth */
+}
+
+#header h4 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+#header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+#header p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-right: auto; /* Align paragraph to the left */
+}
+
+.header__cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start; /* Align buttons to the left */
+}
+
+.header__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.header__btn:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #header {
+        justify-content: center; /* Center content on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .header__container {
+        padding: 1rem;
+    }
+
+    #header h1 {
+        font-size: 2rem;
+    }
+
+    #header p {
+        font-size: 1rem;
+        margin-right: 0; /* Reset alignment for smaller screens */
+    }
+
+    .header__cta {
+        flex-direction: column;
+        align-items: center; /* Center buttons on smaller screens */
+    }
+}

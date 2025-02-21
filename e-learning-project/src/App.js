@@ -1,9 +1,13 @@
 import Navbar from "./sections/navbar/Navbar";
+import Header from "./sections/header/Header";
 
 
 const App = () => {
   return(
-      <Navbar/>
+      <main>
+        <Navbar/>
+        <Header/>
+      </main>
   )
 }
 
