@@ -1,8 +1,8 @@
-import calender from '/images/calendar.png'
-import certificate from '/images/certificate.png'
-import creativity from '/images/creativity.png'
-import homework from '/images/homework.png'
-import socialmedia from '/images/socialmedia.png'
+import calender from '../../images/calender.png'
+import certificate from '../../images/certificate.png'
+import creativity from '../../images/creativity.png'
+import homework from '../../images/homework.png'
+import socialmedia from '../../images/socialmedia.png'
 export const data = [
     {
         icon: calender,

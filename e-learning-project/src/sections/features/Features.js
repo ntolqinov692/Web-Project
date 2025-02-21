@@ -8,7 +8,7 @@ const Features =()=>{
             <div className={"container features__container"}>
                 {
                     data.map((item)=>(
-                        <FeaturesCard key={}/>
+                        <FeaturesCard key={item.icon}{...item}/>
                     ))
                 }
             </div>
