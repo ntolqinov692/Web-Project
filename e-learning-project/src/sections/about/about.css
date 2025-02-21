@@ -1,0 +1,102 @@
+/* About Section */
+#about {
+    padding: 5rem 0;
+}
+
+.about__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 2rem;
+    border: 0.1rem solid var(--color-light);
+    max-width: 1200px; /* Limit container width */
+    margin: 0 auto; /* Center the container */
+    padding: 2rem; /* Add padding inside the container */
+    align-items: center; /* Vertically center items */
+}
+
+.about__left {
+    display: flex;
+    align-items: center; /* Center the image vertically */
+    justify-content: flex-start; /* Align image to the left */
+}
+
+.about__left img {
+    width: 80%; /* Make the image responsive */
+    height: auto;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about__left img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+.about__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    padding: 2rem; /* Add padding */
+    align-items: center;
+}
+
+.about__right h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color); /* Use primary color for heading */
+    text-align: left; /* Align heading text to the left */
+}
+
+.about__right p {
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-color); /* Use text color for paragraph */
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about__container {
+        grid-template-columns: 1fr 1fr; /* Keep two columns */
+        gap: 1rem; /* Reduce gap for smaller screens */
+        padding: 1rem; /* Reduce padding */
+    }
+
+    .about__left img {
+        width: 100%; /* Ensure image fits within the column */
+    }
+
+    .about__right {
+        padding: 1rem; /* Reduce padding */
+    }
+
+    .about__right h3 {
+        font-size: 1.5rem; /* Reduce heading size */
+    }
+
+    .about__right p {
+        font-size: 1rem; /* Reduce paragraph size */
+    }
+}
+
+@media (max-width: 480px) {
+    .about__container {
+        grid-template-columns: 1fr; /* Switch to single column on very small screens */
+    }
+
+    .about__left img {
+        width: 80%; /* Reduce image width on very small screens */
+        margin: 0 auto; /* Center the image */
+    }
+
+    .about__right {
+        text-align: center; /* Center text on very small screens */
+    }
+
+    .about__right h3,
+    .about__right p {
+        text-align: center; /* Center text on very small screens */
+    }
+}
