@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Edu Amaan - Education Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Edu Amaan is a modern, responsive, and interactive education platform designed to showcase courses, team members, testimonials, and blog posts. The platform is built using **React** and features a clean, user-friendly design with support for light and dark modes.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Folder Structure](#folder-structure)
+6. [Contributing](#contributing)
+7. [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Responsive Design**: Works seamlessly on all devices (desktop, tablet, mobile).
+- **Interactive Components**: Hover effects, animations, and smooth transitions.
+- **Light and Dark Mode**: Supports both light and dark themes.
+- **Sections**:
+  - **Navbar**: Sticky navigation bar with a toggle for light/dark mode.
+  - **Header**: Hero section with a welcoming message and call-to-action buttons.
+  - **Features**: Showcases key features of the platform.
+  - **About**: Displays information about the team and their mission.
+  - **Courses**: Lists available courses with details and pricing.
+  - **Team**: Introduces team members with social media links.
+  - **Testimonial**: Displays user feedback and testimonials.
+  - **Blog**: Highlights the latest news and articles.
+  - **Footer**: Includes quick links, contact information, and social media links with a wave animation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: A JavaScript library for building user interfaces.
+- **React Icons**: For scalable vector icons.
+- **CSS**: Custom styles with CSS variables for theme support.
+- **HTML5**: Semantic markup for better accessibility.
+- **JavaScript**: For dynamic functionality and interactivity.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+Follow these steps to set up the project locally:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repository**:
+   ```bash
+   https://github.com/ntolqinov692/Web-Project.git
