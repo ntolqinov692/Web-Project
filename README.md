@@ -1,31 +1,53 @@
-# E-Learning Platform
+# Edu Amaan - Education Platform
 
-This is a simple e-learning platform frontend built with React.js.
+Edu Amaan is a modern, responsive, and interactive education platform designed to showcase courses, team members, testimonials, and blog posts. The platform is built using **React** and features a clean, user-friendly design with support for light and dark modes.
+
+---
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Folder Structure](#folder-structure)
+6. [Contributing](#contributing)
+7. [License](#license)
+
+---
 
 ## Features
 
-- Landing Page
-- Authentication UI
-- Dashboard
-- Course Page with video lessons and quizzes
-- State management using React state
-- Progress tracking stored in localStorage
+- **Responsive Design**: Works seamlessly on all devices (desktop, tablet, mobile).
+- **Interactive Components**: Hover effects, animations, and smooth transitions.
+- **Light and Dark Mode**: Supports both light and dark themes.
+- **Sections**:
+  - **Navbar**: Sticky navigation bar with a toggle for light/dark mode.
+  - **Header**: Hero section with a welcoming message and call-to-action buttons.
+  - **Features**: Showcases key features of the platform.
+  - **About**: Displays information about the team and their mission.
+  - **Courses**: Lists available courses with details and pricing.
+  - **Team**: Introduces team members with social media links.
+  - **Testimonial**: Displays user feedback and testimonials.
+  - **Blog**: Highlights the latest news and articles.
+  - **Footer**: Includes quick links, contact information, and social media links with a wave animation.
 
-## Getting Started
+---
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run the app: `npm start`
+## Technologies Used
 
-## Folder Structure
+- **React**: A JavaScript library for building user interfaces.
+- **React Icons**: For scalable vector icons.
+- **CSS**: Custom styles with CSS variables for theme support.
+- **HTML5**: Semantic markup for better accessibility.
+- **JavaScript**: For dynamic functionality and interactivity.
 
-- `src/` - Contains the React components and pages
-- `components/` - Reusable components
-- `pages/` - Pages for different routes
-- `App.js` - Main app component
-- `index.js` - Entry point for the React app
+---
 
-## Dependencies
+## Installation
 
-- React
-- React Router
+Follow these steps to set up the project locally:
+
+1. **Clone the repository**:
+   ```bash
+   https://github.com/ntolqinov692/Web-Project.git
