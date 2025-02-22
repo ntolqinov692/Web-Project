@@ -1,3 +1,4 @@
+// src/sections/navbar/Navbar.js
 import './navbar.css';
 import { useState, useEffect } from 'react';
 import {
@@ -5,10 +6,12 @@ import {
     RiLinkedinFill, RiTwitterFill, RiMoonFill, RiSunFill, RiMenuLine, RiCloseLine
 } from "react-icons/ri";
 import navData from "./daja";
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
     const [darkMode, setDarkMode] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const navigate = useNavigate();
 
     // Load theme from localStorage
     useEffect(() => {
@@ -44,6 +47,11 @@ const Navbar = () => {
         setIsMenuOpen(false);
     };
 
+    // Navigate to login page
+    const handleLoginClick = () => {
+        navigate('/login');
+    };
+
     return (
         <nav>
             <div className="container tn_container">
@@ -69,6 +77,7 @@ const Navbar = () => {
                         <button className="theme-toggle" onClick={toggleTheme}>
                             {darkMode ? <RiSunFill /> : <RiMoonFill />}
                         </button>
+                        <button className="nav__btn" onClick={handleLoginClick}>Login</button>
                     </div>
                 </div>
             </div>
