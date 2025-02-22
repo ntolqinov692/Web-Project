@@ -1,11 +1,11 @@
-import course1 from '../../images/course1.jpg'
-import course2 from '../../images/course2.jpg'
-import course3 from '../../images/course3.jpg'
-import course4 from '../../images/course4.jpg'
-import course5 from '../../images/course5.jpg'
-import course6 from '../../images/course6.jpg'
-import course7 from '../../images/course7.jpg'
-import course8 from '../../images/course8.jpg'
+import course1 from '../../images/course1.png'
+import course2 from '../../images/course2.png'
+import course3 from '../../images/course3.png'
+import course4 from '../../images/course4.png'
+import course5 from '../../images/course5.png'
+import course6 from '../../images/course6.png'
+import course7 from '../../images/course7.png'
+import course8 from '../../images/course8.png'
 export const data = [
     {
         imgURL: course1,
@@ -16,52 +16,52 @@ export const data = [
     },
     {
         imgURL: course2,
-        title: 'Psychology',
+        title: 'Programming',
         prof: 'Michael Brown',
         students: '1.5k',
         des: 'Lorem ipsum, dolor sit amet consectetur adipihcing elit. Odio, iusto!'
     },
     {
         imgURL: course3,
-        title: ' Economics',
+        title: ' Frontend',
         prof: 'John Mitchell',
         students: '2.1k',
         des: 'Lorem ipsum, dolor sit amet consectetur adipisocing elit. Odio, iusto!'
     },
     {
         imgURL: course4,
-        title: 'Biology',
+        title: 'Backend',
         prof: 'Lisa Martin',
         students: '1.7k',
         des: 'Lorem ipsum, dolor sit amet consectetur adipisilng elit. Odio, iusto!'
     },
     {
         imgURL: course5,
-        title: 'History',
+        title: 'AI',
         prof: 'Robert Clark',
-        students: 101,
+        students: '1.1k',
         des: 'Lorem ipsum, dolor sit amet consectetur adipisying elit. Odio, iusto!'
     },
     {
         imgURL: course6,
-        title: 'Mathematics',
+        title: 'Cyber Security',
         prof: 'Sarah Williams',
-        students: 110,
+        students: '3.7k',
         des: 'Lorem ipsum, dolor sit amet consectetur adipiseing elit. Odio, iusto!'
     },
     {
         imgURL: course7,
-        title: 'General Science',
+        title: 'Pen-testing',
         prof: 'Emily Johnson',
-        students: 121,
-        des: 'Lorem ipsum, dolor sit amet consectetur adidssicing elit. Odio,!'
+        students: '2.1k',
+        des: 'Lorem ipsum, dolor sit amet consectetur adidssicing elit. Odio, iusto!'
     },
     {
         imgURL: course8,
-        title: 'Journalism',
+        title: 'Full-Stack',
         prof: 'James Smith',
-        students: 135,
-        des: 'Lorem ipsum, dolor sit amet consectetur adipinmcing elit. Odio,!'
+        students: '1.3k',
+        des: 'Lorem ipsum, dolor sit amet consectetur adipinmcing elit. Odio, iusto!'
     }
 ]
 

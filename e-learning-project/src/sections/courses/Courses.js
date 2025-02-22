@@ -8,7 +8,7 @@ const Courses =()=>{
         <section id={"courses"}>
 
             <div className={"title"}>
-                <h2>Our Courses</h2>
+                <h2>Our Popular Courses</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, repellat!</p>
             </div>
             <div className={"container courses__container"}>
