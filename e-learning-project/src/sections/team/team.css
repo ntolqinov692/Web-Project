@@ -1,0 +1,155 @@
+/* Team Section */
+#team {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, #89CFF0, #ADD8E6);
+    color: var(--text-color);
+}
+.dark-mode #team{
+    background: rgb(53, 57, 53);
+}
+#team .title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#team .title h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+#team .title p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.team__card {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Glass-morphism effect */
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    position: relative;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.team__card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+    background: rgba(255, 255, 255, 0.2); /* Slightly lighter background on hover */
+}
+
+.team__card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circular image */
+    object-fit: cover;
+    margin-bottom: 1rem;
+    transition: opacity 0.3s ease;
+}
+
+.team__card h4 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    transition: opacity 0.3s ease;
+}
+
+.team__card-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.team__card-info h5 {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.team__card-social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.team__card-social a {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.team__card-social a:hover {
+    color: var(--primary-hover);
+    transform: translateY(-5px);
+}
+
+/* Hover Effects */
+.team__card:hover img,
+.team__card:hover h4 {
+    opacity: 0; /* Hide image and name on hover */
+}
+
+.team__card:hover .team__card-info {
+    opacity: 1; /* Show job title and social media on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team__container {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+        gap: 1rem;
+    }
+
+    .team__card img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .team__card h4 {
+        font-size: 1.3rem;
+    }
+
+    .team__card-info h5 {
+        font-size: 1rem;
+    }
+
+    .team__card-social a {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .team__container {
+        grid-template-columns: 1fr; /* Single column on very small screens */
+    }
+
+    .team__card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .team__card h4 {
+        font-size: 1.2rem;
+    }
+
+    .team__card-info h5 {
+        font-size: 0.9rem;
+    }
+}
