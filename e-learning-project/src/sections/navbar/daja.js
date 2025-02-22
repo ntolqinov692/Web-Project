@@ -1,22 +1,22 @@
 const navData=[
     {
         id:1,
-        link:'#',
+        link:'#home',
         title:'Home',
     },
     {
        id:2,
-        link:'#',
+        link:'#about',
         title:'About',
     },
     {
        id:3,
-        link:'#',
+        link:'#courses',
         title:'Courses',
     },
     {
        id:4,
-        link:'#',
+        link:'#testimonial',
         title:'Testimonial',
     },
     {

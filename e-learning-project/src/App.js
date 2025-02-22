@@ -6,6 +6,7 @@ import Courses from "./sections/courses/Courses";
 import Team from "./sections/team/Team"
 import Testimonial from "./sections/testimonial/Testimonial";
 import './index.css'
+import Blog from "./sections/blog/Blog";
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Courses/>
           <Team/>
           <Testimonial/>
+          <Blog/>
       </main>
   )
 }
