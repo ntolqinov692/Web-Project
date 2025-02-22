@@ -7,6 +7,7 @@ import Team from "./sections/team/Team"
 import Testimonial from "./sections/testimonial/Testimonial";
 import './index.css'
 import Blog from "./sections/blog/Blog";
+import Footer from "./sections/footer/Footer";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Team/>
           <Testimonial/>
           <Blog/>
+          <Footer/>
       </main>
   )
 }

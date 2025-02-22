@@ -1,7 +1,7 @@
 const navData=[
     {
         id:1,
-        link:'#home',
+        link:'#header',
         title:'Home',
     },
     {
@@ -21,7 +21,7 @@ const navData=[
     },
     {
        id:5,
-        link:'#',
+        link:'#footer',
         title:'Contact',
     }
 ];
