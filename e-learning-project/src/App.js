@@ -4,6 +4,7 @@ import Features from "./sections/features/Features";
 import About from "./sections/about/About";
 import Courses from "./sections/courses/Courses";
 import Team from "./sections/team/Team"
+import Testimonial from "./sections/testimonial/Testimonial";
 import './index.css'
 
 
@@ -16,6 +17,7 @@ const App = () => {
           <About/>
           <Courses/>
           <Team/>
+          <Testimonial/>
       </main>
   )
 }
