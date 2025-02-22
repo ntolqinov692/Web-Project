@@ -11,28 +11,28 @@ export const data = [
         imgURL: course1,
         title: 'Data Science',
         prof: 'Susan Taylor',
-        students: 113,
+        students: '11k',
         des: 'Lorem ipsum, dolor sit amet consectetur adipidfcng elit. Odio, iusto!'
     },
     {
         imgURL: course2,
         title: 'Psychology',
         prof: 'Michael Brown',
-        students: 150,
+        students: '1.5k',
         des: 'Lorem ipsum, dolor sit amet consectetur adipihcing elit. Odio, iusto!'
     },
     {
         imgURL: course3,
         title: ' Economics',
         prof: 'John Mitchell',
-        students: 140,
-        des: 'Lorem ipsum, dolor sit amet consectetur adipisocing elit, iusto!'
+        students: '2.1k',
+        des: 'Lorem ipsum, dolor sit amet consectetur adipisocing elit. Odio, iusto!'
     },
     {
         imgURL: course4,
         title: 'Biology',
         prof: 'Lisa Martin',
-        students: 170,
+        students: '1.7k',
         des: 'Lorem ipsum, dolor sit amet consectetur adipisilng elit. Odio, iusto!'
     },
     {

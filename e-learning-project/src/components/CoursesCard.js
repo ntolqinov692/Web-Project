@@ -25,7 +25,7 @@ const CoursesCard = ({ imgURL, title, prof, students, des, showCloseButton }) =>
                     </div>
                     <div>
                         <span className="courses__card-icon">
-                            <img src={duration} alt="" />6 Months
+                            <img src={duration} alt="" />72h
                         </span>
                     </div>
                     <div className="courses__card-price">$99.0</div>

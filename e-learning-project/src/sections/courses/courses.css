@@ -33,7 +33,7 @@
 }
 
 .courses__card {
-    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    background: rgba(173, 216, 230, 1.1); /* Semi-transparent background */
     backdrop-filter: blur(10px); /* Glass-morphism effect */
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
@@ -49,7 +49,17 @@
 .courses__card:hover {
     transform: translateY(-10px); /* Lift card on hover */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
-    background: rgba(255, 255, 255, 0.2); /* Slightly lighter background on hover */
+    background: rgba(182, 208, 226, 1.1); /* Slightly lighter background on hover */
+}
+
+/* Dark Mode Styles */
+.dark-mode .courses__card {
+    background: rgba(54, 69, 79, 0.8); /* Dark semi-transparent background */
+    border: 1px solid rgba(96, 130, 182, 1.1); /* Subtle border */
+}
+
+.dark-mode .courses__card:hover {
+    background: rgba(36, 36, 36, 0.9); /* Slightly lighter dark background on hover */
 }
 
 .courses__img {
@@ -122,7 +132,7 @@
     align-items: center;
     gap: 1rem;
     width: 100%; /* Ensure full width */
-    background: rgba(0, 0, 0, 0.05); /* Light background for light mode */
+    background: rgba(96, 130, 182, 0.5); /* Light background for light mode */
     padding: 0.5rem 1rem;
     border-radius: 5px;
 }
@@ -135,18 +145,18 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: var(--text-color);
 }
 
 .courses__card-icon img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     filter: invert(100%); /* Ensure icons are visible in dark mode */
 }
 
 .courses__card-price {
-    font-size: 1rem; /* Reduced font size */
+    font-size: 0.8rem; /* Reduced font size */
     font-weight: bold;
     color: var(--primary-color);
     background: rgba(255, 255, 255, 0.1);
