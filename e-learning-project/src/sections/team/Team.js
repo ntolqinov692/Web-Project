@@ -8,10 +8,9 @@ const Team =()=>{
             <div className={'title'}>
                 <h2>Professional Instructors</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Adipisci amet aut dolores exercitationem, in ipsa, iure laboriosam
-                    nisi nobis non nulla soluta suscipit voluptate? Ducimus eos expedita
-                    harum nisi provident!
+                    At Edu Amaan, we believe that the best learning comes from the best instructors. Our team consists of industry professionals with years of experience in their fields.
+                    They don’t just teach – they mentor, guide, and inspire. With a passion for both teaching and technology, they bring real-world insights into the classroom, helping
+                    you connect theory with practice.
                 </p>
             </div>
             <div className={'container team__container'}>
