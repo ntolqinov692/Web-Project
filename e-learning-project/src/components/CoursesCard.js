@@ -1,8 +1,9 @@
+// src/components/CourseCard.js
 import React from 'react';
 import users from '../images/users.png';
 import duration from '../images/duration.png';
 
-const CoursesCard = ({ imgURL, title, prof, students, des, showCloseButton }) => {
+const CourseCard = ({ imgURL, title, prof, students, des, showCloseButton, onEnroll }) => {
     return (
         <div className="courses__card">
             <div className="courses__img">
@@ -30,9 +31,10 @@ const CoursesCard = ({ imgURL, title, prof, students, des, showCloseButton }) =>
                     </div>
                     <div className="courses__card-price">$99.0</div>
                 </div>
+                <button className={"courses__card-price"} onClick={onEnroll}>Enroll</button>
             </div>
         </div>
     );
 };
 
-export default CoursesCard;
+export default CourseCard;

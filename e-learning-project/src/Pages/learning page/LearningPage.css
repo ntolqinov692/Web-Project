@@ -1,0 +1,148 @@
+/* src/pages/LearningPage.css */
+.learning-page {
+    padding: 2rem;
+    background: var(--body-bg);
+    color: var(--body-text);
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.progress {
+    height: 100%;
+    background: var(--primary-color);
+    border-radius: 5px;
+}
+
+.learning-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.sidebar {
+    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.sidebar h3 {
+    margin-bottom: 1rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.sidebar li:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar li.active {
+    background: var(--primary-color);
+    color: white;
+}
+
+.sidebar li span {
+    float: right;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.content-area {
+    flex: 1;
+}
+
+.video-container {
+    margin-top: 1rem;
+}
+/* src/pages/CoursePage.css */
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #76c7c0;
+    transition: width 0.3s ease;
+}
+
+.dashboard, .ranking {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.course-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* src/pages/learning page/LearningPage.css */
+.complete-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.complete-btn:hover {
+    background: #76c7c0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.complete-btn:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.complete-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(118, 199, 192, 0.5);
+}
+
+.complete-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.complete-btn.completed {
+    background: #4caf50; /* Green color for completed state */
+}
+
+.complete-btn.completed:hover {
+    background: #45a049;
+}
