@@ -14,5 +14,5 @@ test('renders TestimonialCard with correct details', () => {
   expect(screen.getByText(/Jane Doe/i)).toBeInTheDocument();
   expect(screen.getByText(/Software Engineer/i)).toBeInTheDocument();
   expect(screen.getByText(/This course was amazing!/i)).toBeInTheDocument();
-  expect(screen.getByAltText(/Jane Doe/i)).toHaveAttribute('src', 'user.jpg');
+  expect(screen.getByAltText(/Jane Doe/i)).toHaveAttribute('src', 'users.png');
 });
