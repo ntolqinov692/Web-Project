@@ -1,0 +1,49 @@
+/* src/components/Ranking.css */
+.ranking {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.ranking h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.ranking table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ranking th,
+.ranking td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ranking th {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--primary-color);
+}
+
+.ranking tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.ranking .current-user {
+    background: rgba(118, 199, 192, 0.1);
+    font-weight: bold;
+}
+
+.ranking .current-user td {
+    color: var(--primary-color);
+}
