@@ -9,7 +9,8 @@ const Courses =()=>{
 
             <div className={"title"}>
                 <h2>Our Popular Courses</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, repellat!</p>
+                <p>We offer cutting-edge IT courses in Data Science, AI, Cybersecurity, Frontend, Backend, and more.
+                </p>
             </div>
             <div className={"container courses__container"}>
                 {
