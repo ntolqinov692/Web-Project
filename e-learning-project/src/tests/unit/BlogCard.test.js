@@ -7,5 +7,5 @@ test('renders BlogCard with correct props', () => {
   expect(screen.getByText(/Technology/i)).toBeInTheDocument();
   expect(screen.getByText(/Top 10 Technologies/i)).toBeInTheDocument();
   expect(screen.getByText(/By Admin - Feb 07, 2025/i)).toBeInTheDocument();
-  expect(screen.getByAltText(/Top 10 Technologies/i)).toHaveAttribute('src', 'test.jpg');
+  expect(screen.getByAltText(/Top 10 Technologies/i)).toHaveAttribute('src', 'blog1.jpg');
 });
