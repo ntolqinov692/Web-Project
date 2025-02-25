@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 // src/sections/login/Login.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './login.css';
+=======
+// src/pages/Login.js
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import './login.css'; // Import the CSS file for styling
+>>>>>>> origin/main
 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -12,12 +19,22 @@ const Login = () => {
     const handleLogin = (e) => {
         e.preventDefault();
 
+<<<<<<< HEAD
         // Get registered credentials from localStorage
         const loginCredentials = JSON.parse(localStorage.getItem('loginCredentials'));
 
         if (username === loginCredentials?.username && password === loginCredentials?.password) {
             localStorage.setItem('isAuthenticated', 'true');
             navigate('/courses');
+=======
+        // Hardcoded username and password for demonstration
+        const validUsername = 'user';
+        const validPassword = 'password';
+
+        if (username === validUsername && password === validPassword) {
+            // Navigate to the home page or dashboard after successful login
+            navigate('/');
+>>>>>>> origin/main
         } else {
             setError('Invalid username or password');
         }
@@ -59,4 +76,8 @@ const Login = () => {
     );
 };
 
+<<<<<<< HEAD
 export default Login;
+=======
+export default Login;
+>>>>>>> origin/main

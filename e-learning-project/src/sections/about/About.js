@@ -1,5 +1,5 @@
 import './about.css';
-import aboutImage from '../../images/about.png';
+import aboutImage from '../../images/about.jpg';
 
 const About = () => {
     return (
@@ -13,9 +13,11 @@ const About = () => {
                 <div className="about__right">
                     <h3>Our Team's Message</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Amet explicabo, impedit ipsam magnam optio quod! Ab, molestiae,
-                        sunt? Aliquam ea ipsum nemo sapiente.
+                        At Edu Amaan, we’re here to help you unlock your tech potential. Our mission is simple – to
+                        equip you with the skills needed for success in the ever-changing world of technology. From
+                        AI to Data Science, Cybersecurity, Frontend, Backend, and beyond, we cover a wide range of
+                        cutting-edge fields to help you grow. Your journey starts here. Embrace the challenge, and let’s
+                        build your future together!
                     </p>
                 </div>
             </div>

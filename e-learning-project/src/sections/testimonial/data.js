@@ -5,28 +5,33 @@ import user4 from '../../images/user4.jpg'
 export const data = [
     {
         imgURL: user1,
-        title: 'Susan Taylor',
-        about: "Web Developer",
-        des: 'Lorem ipsum, dolor sit amet consectetur adipidfcng elit. Odio, iusto amet consectetur adipidfcng elit. Odio, iustoamet.'
+        title: 'Elon Mask',
+        about: "CEO of Tesla and SpaceX",
+        des: 'When something is important enough, you do it even if the odds are not in your favor.'
     },
     {
         imgURL: user2,
-        title: 'Michael Brown',
-        about: "Web Designer",
-        des: 'Lorem ipsum, dolor sit amet consectetur adipihcing elit. Odio, iusto! consectetur adipihcing elit. Odio, iusto!consectetur'
+        title: 'Bill Gates',
+        about: "Co-founder of Microsoft",
+        des: 'Your most unhappy customers are your greatest source of learning.'
     },
     {
         imgURL: user3,
-        title: 'John Mitchell',
-        about: "Software Developer",
-        des: 'Lorem ipsum, dolor sit amet consectetur adiocing elit, iusto! sit amet consectur adipisocing elit, iusto! sit amet elit, iusto'
+        title: 'Mark Zuckerberg',
+        about: "Co-founder of Facebook",
+        des: 'The biggest risk is not taking any risk.'
     },
     {
         imgURL: user4,
-        title: 'Lisa Martin',
-        about: "Android Developer",
-        des: 'Lorem ipsum, dolor sit amet consectetur adipisilng elit. Odio, iusto! sit amet consectetur   adipisocing elit, iusto!'
+        title: 'Steve Jobs',
+        about: "Co-founder of Apple",
+        des: 'The people who are crazy enough to think they can change the world are the ones who do.!'
     }
 ]
+
+
+
+
+
 
 

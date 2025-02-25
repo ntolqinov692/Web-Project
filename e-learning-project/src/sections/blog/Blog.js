@@ -7,7 +7,7 @@ const Blog=()=>{
         <section id={'blog'}>
             <div className={"title"}>
                 <h2>Latest News</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cumque explicabo illum officiis.</p>
+
             </div>
             <div className={"container blog__container"}>
                 {

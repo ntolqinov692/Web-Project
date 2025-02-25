@@ -1,12 +1,12 @@
 import React from 'react'
 import { RiExternalLinkFill } from 'react-icons/ri'
 
-const BlogCard = ({imgURL, ctg, title, info}) => {
+const BlogCard = ({imgURL, ctg, title, info, link}) => {
   return (
     <div className="blog__card">
         <div className="blog__card-img">
             <img src={imgURL} alt={title} />
-            <a href="" className='blog__card-link'>
+            <a href={link} className='blog__card-link'>
                 <RiExternalLinkFill className='blog__card-icon'/>
             </a>
         </div>
